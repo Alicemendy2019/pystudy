@@ -14,6 +14,14 @@ def myfnc3(prm1,prm2,**args):
 def myfnc4(prm1,*args,**kwargs):
     return f'prm1:{prm1},args:{args},kwargs:{kwargs}'
 
+def myfnc5(func,prm):
+	return func(prm)
+
+def make_addr(x):
+	def addr(y):
+		return y + x
+	return addr
+
 hello('ame')
 print(myfnc(1,2,3))
 print(myfnc(prm3=3,prm1=1,prm2=2))
@@ -28,3 +36,7 @@ print(myfnc3(**data))
 data2 = [1,2,3,4,5]
 # print(myfnc4(1,*data2,**data))
 print(__name__)
+print(myfnc5(len,'python'))
+
+fifty_addr = make_addr(50)
+print(fifty_addr(5))
