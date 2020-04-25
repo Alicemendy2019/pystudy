@@ -1,0 +1,17 @@
+[
+    {
+        "name": "humberg",
+        "price": 390,
+        "calorie": 350
+    },
+    {
+        "name": "cheese",
+        "price": 280,
+        "calorie": 160
+    },
+    {
+        "name": "potato",
+        "price": 220,
+        "calorie": 230
+    }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "hardware",
+    "description": ""
+  },
+  {
+    "name": "software",
+    "description": ""
+  },
+  {
+    "name": "communication",
+    "description": ""
+  }
+]

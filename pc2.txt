@@ -1,0 +1,62 @@
+[
+  {
+    "name": "hardware",
+    "description": "",
+    "child": [
+      {
+        "name": "memory",
+        "description": ""
+      },
+      {
+        "name": "CPU",
+        "description": ""
+      },
+      {
+        "name": "HDD",
+        "description": ""
+      },
+      {
+        "name": "cable",
+        "description": ""
+      },
+      {
+        "name": "storage",
+        "description": ""
+      },
+      {
+        "name": "electric bord",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "software",
+    "description": "",
+    "child": [
+      {
+        "name": "Operation System",
+        "description": ""
+      },
+      {
+        "name": "middleware",
+        "description": ""
+      },
+      {
+        "name": "application",
+        "description": ""
+      },
+      {
+        "name": "development tool",
+        "description": ""
+      },
+      {
+        "name": "programing lunguage",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "communication",
+    "description": ""
+  }
+]
